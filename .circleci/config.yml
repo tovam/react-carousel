@@ -66,7 +66,3 @@ workflows:
           requires:
             - test
             - test-e2e
-          filters:
-            branches:
-              only:
-                - master
