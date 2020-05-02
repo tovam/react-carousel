@@ -672,6 +672,7 @@ class Carousel extends Component {
       <div>
         <div
           className={classnames('BrainhubCarousel', this.getProp('className'), isRTL ? 'BrainhubCarousel--isRTL' : '')}
+          style={this.props.style || {}}
           ref={el => this.node = el}
         >
           {this.renderArrowLeft()}
